@@ -1,19 +1,20 @@
 import React from 'react'
-import './styles.css'
+
 import { Link } from 'react-router-dom'
 
+import Menu from './Menu'
 import Logo from '../../imagens/LogoProjeto.png'
+import './styles.css'
 
 function Navbar () {
     return (
         <nav className="navbar">
-            <div>
-                <Link to='/'>
-                    {''}
-                    <img className="logo" src={Logo} alt='Logotipo Veg' />
-                </Link>
-                
-            </div>
+            <Link to='/'>
+                {''}
+                <img className="logo" src={Logo} alt='Logotipo Veg' />
+            
+            </Link>
+            <Menu />            
         </nav>
     )
 }

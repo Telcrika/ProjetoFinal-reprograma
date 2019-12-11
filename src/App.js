@@ -4,6 +4,7 @@ import Navbar from './Componentes/Navbar'
 import Home from './Paginas/Home'
 import Cardapio from './Paginas/Cardapio'
 import Acontece from './Paginas/Acontece'
+import Footer from './Componentes/Footer'
 
 
 import './App.css';
@@ -16,6 +17,7 @@ function App () {
         <Route exact path='/' component={Home} />
         <Route path='/Cardapio' component={Cardapio} />
         <Route path='/Acontece' component={Acontece} />
+        <Footer />
       </div>
     </Switch>
   )

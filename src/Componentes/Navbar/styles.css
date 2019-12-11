@@ -1,10 +1,11 @@
 .navbar {
-    height: 50px;
-    background-color: lightpink;
+    height: 65px;
+    background-color: limegreen;
 }
 
 .logo {
-    width: 50px;
-    height: 40px;
-    padding: 5px;
+    width: 80px;
+    height: 60px;
+    padding: 10px;
+    margin: 0;
 }
