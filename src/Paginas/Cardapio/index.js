@@ -1,24 +1,37 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
+import data from '../../Json/data.json'
 
-function Cardapio () {
+
+function Cardapio(props) {
+    console.log(data.restaurantes)
     return (
-        
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                </Card.Text>
-                
-            </Card.Body>
-        </Card>
+        <div className="teste">
+        {
+            data.restaurantes.map(rest => (
+                <Card key={rest.id} style={{ width: '18rem' }}>
+                    <Card.Body>
+                        <Card.Title>{rest.nome}</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">{rest.regiao}</Card.Subtitle>
+                        <Card.Text>
+                        {rest.descrição}
+                        </Card.Text>
+                        <Card.Link href="#">{rest.site}</Card.Link>
+                    </Card.Body>
+                </Card>
+            ))
+        }
+        </div>
     )
 }
-   
 
+const restaurante = () => (
+    <div>
+        {data.map.regiao(item => {
+            console.log(item)
+        })}
+    </div>
+)
 
 export default Cardapio

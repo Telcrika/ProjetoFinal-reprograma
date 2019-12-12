@@ -1,4 +1,4 @@
-.div-acontece {
+.acontece {
     background-image: url('../../imagens/fundo.jpg');
     background-repeat: repeat;
     background-size: cover;
@@ -8,15 +8,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
    
-}
 
-.acontece{
-    background-color: lightgreen;
-    width: 850px;
-    height: 1070px;
-    
-}
+
 
 
 

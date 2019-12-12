@@ -1,0 +1,54 @@
+{
+  "restaurantes": [
+    {
+      "id": 1,
+      "nome": "Vegetao",
+      "descrição": "Cozinha serve receitas vegetarianas contemporâneas no almoço, em ambiente colorido e atmosfera descontraída.",
+      "regiao": "norte",
+      "site": "http://vegetao.com.br/"
+    },
+    {
+      "id": 2,
+      "nome": "Vila das Rosas",
+      "descrição": "Variedade de lanches no prato, salgados, sucos naturais e destaque ao menu de almoço, em ambiente tranquilo.",
+      "regiao": "oeste",
+      "site": "https://www.viladasrosas.com.br/"
+    },
+    {
+      "id": 3,
+      "nome": "Café Veredas",
+      "descrição": "Ambiente agradável com excelentes opções veganas e sem glúten. Ótimo para um lanche rápido ou refeição completa.",
+      "regiao": "norte",
+      "site": "http://xn--cafveredas-d7a.com/?utm_source=gmb&utm_medium=referral"
+    },
+    {
+      "id": 4,
+      "nome": "Veggie Café",
+      "descrição": "A cozinha vegana de pratos individuais e balanceados com salgados de integrais, em espaço casual e estilizado",
+      "regiao": "norte",
+      "site": "https://www.veggiecafe.com.br/"
+    },
+    {
+      "id": 5,
+      "nome": "Bento Natureba",
+      "descrição": "Buffet a quilo com variedade de saladas, massas, carnes e destaque às opções funcionais, em ambiente informal.",
+      "regiao": "norte",
+      "site": "https://www.bentonatureba.com.br/"
+    },
+    {
+      "id": 6,
+      "nome": "Novos Veganos",
+      "descrição": "Variedade de hambúrgueres veganos, diversas opções de ingredientes, bebidas, ambiente alternativo e delivery.",
+      "regiao": "oeste",
+      "site": "https://www.facebook.com/hamburguerianovosveganos"
+    },
+    {
+      "id": 7,
+      "nome": "Restaurante Moinho de Pedra",
+      "descrição": "Variedade de hambúrgueres veganos, diversas opções de ingredientes, bebidas, ambiente alternativo e delivery.",
+      "regiao": "oeste",
+      "site": "https://www.facebook.com/hamburguerianovosveganos"
+    }
+
+  ]
+}     
