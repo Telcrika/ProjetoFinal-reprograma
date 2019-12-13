@@ -14,8 +14,16 @@
     
 }
 
+.footer-paginas{
+    display: flex;
+    justify-content: center;
+    
+}
+
 .redes-sociais {
-    margin-left: 560px;
+    /* margin-left: 560px; */
+    justify-content: center;
+
 }
 
 .logo2 {
@@ -29,3 +37,4 @@
     height: 50px;
     padding: 8px;
 }
+

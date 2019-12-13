@@ -4,10 +4,39 @@
     background-size: cover;
     margin: 0;
     padding: 0;
+    width: 100vw;
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+@media (max-width: 320px) 
+{
+ 
+
+    .opcao{
+        margin: 5px;
+    }
+
+    .div-conteudo {
+        margin-right: 2px;
+        width: 252px;
+    }
+
+}
+
+@media(max-width:375px){
+    .opcao{
+        margin: 3px;
+    }
+
+    .div-conteudo{
+        margin-right: 8px;
+    }
+
 }
    
 

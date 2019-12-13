@@ -1,7 +1,8 @@
 import React from 'react'
-
+import Convite from '../../imagens/eventoVeg.jpg'
 import './styles.css'
 import Assunto from '../../Componentes/Assunto'
+// import { getBsProps } from 'react-bootstrap/lib/utils/bootstrapUtils'
 
 
 function Acontece () {
@@ -10,11 +11,10 @@ function Acontece () {
         <main className='acontece'>
 
             <Assunto
-                name='../../'
-                titulo='nonononononon'
-
-
-
+                titulo='Festa de Natal'
+                name={Convite}
+                texto=''
+                
             />
 
         </main>

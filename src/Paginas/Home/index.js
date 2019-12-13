@@ -10,8 +10,8 @@ function Home () {
         <main className='home'>
             
             <Header
-                titulo='Sua melhor experiência Vegana e Vegetariana'
-                className='home-header'
+                titulo="Sua melhor experiência Vegana e Vegetariana"
+                className="home-header"
             />  
             
             

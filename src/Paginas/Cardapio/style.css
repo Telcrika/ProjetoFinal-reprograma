@@ -1,7 +1,20 @@
-.teste {
+.div-cards{
     display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
+    justify-content: space-around;
+}
 
+.card{
+    display: flex;
+    justify-content: space-around !important;
+}
 
+.caixa {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(max-width:320px){
+    .div-cards{
+        margin: 0 auto;
+    }
 }
